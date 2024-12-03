@@ -10,6 +10,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("王伟");
         return "Hello, Spring Boot1!";
     }
 }
